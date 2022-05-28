@@ -1,0 +1,11 @@
+.someClass {
+    display: inline-flex;
+    font-size: 25px;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.error {
+    border: 1px solid red;
+}
+

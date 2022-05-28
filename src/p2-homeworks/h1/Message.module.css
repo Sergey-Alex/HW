@@ -1,0 +1,57 @@
+
+
+.message {
+   display: flex;
+   margin: 10px 20px 10px 20px;
+   width: 300px;
+   height: 80px;
+   background-color: #a7e800 ;
+   border-radius: 5px;
+   box-shadow: #dcb1f8;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.message>img{
+   width:25%;
+   background-color: #8a83db;
+   border-radius: 50%;
+
+}
+
+
+.bodyMessage {
+   width: 210px;
+   height: 70px;
+   margin-top: 5px;
+   margin-left: 15px;
+   background-color: #002200;
+   border-radius: 5px;
+}
+.post {
+  color: #acc2ac;
+  padding-left: 30px ;
+   justify-content: space-between;
+   font-size: 15px;
+   font-family: Calibri;
+}
+
+.time {
+   padding-left: 160px;
+   padding-bottom: 10px;
+   color: #3b753b;
+
+}
+.someName {
+   padding-top:10px;
+   padding-left: 30px;
+   color: beige;
+}
+.d10 {
+   width: 0;
+   height: 0;
+   border-bottom: 15px solid #002200;
+   border-left: 15px solid transparent;
+   margin-right: -20px;
+   margin-top: 60px;
+}
