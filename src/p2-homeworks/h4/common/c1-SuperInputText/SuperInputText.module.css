@@ -9,6 +9,7 @@
 }
 .input:focus {
     outline: none;
+    border: #8f8d8d;
 }
 
 .errorInput {

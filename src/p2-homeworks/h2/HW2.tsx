@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from './Affairs.module.css'
 
 export type AffairPriorityType = 'high' | 'low' | 'middle'
 export type AffairType = {
@@ -37,14 +38,13 @@ function HW2() {
     const filteredAffairs = filterAffairs(affairs, filter)
 
     return (
-        <div>
-            <hr/>
+        <div className={s.someClass}>
             <Affairs
                 affairs={filteredAffairs}
                 deleteAffairCallback={deleteAffairCallback}
                 setFilter = {setFilter}
             />
-            <hr/>
+
         </div>
     )
 }

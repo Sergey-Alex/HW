@@ -1,3 +1,81 @@
 .someClass {
+    border: 1px solid #6da957;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: #dcb1f8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
+.high {
+    color: #e854a3;
+}
+
+.low {
+    color: #0e9300;
+}
+
+.middle {
+    color: #e0e00c;
+}
+
+.items {
+
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filterBtn {
+    margin-top: 10px;
+    display: inline-grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    gap: 5px;
+    height: 30px;
+}
+
+.filterBtn .blue {
+    background: #00f8c0;
+    border-radius: 5px;
+    border: 0;
+    box-shadow : 0px 1px 3px ;
+}
+
+.filterBtn .red {
+    background: #e854a3;
+    border-radius: 5px;
+    border: 0;
+    box-shadow : 0px 1px 3px ;
+}
+.filterBtn .yellow {
+    background: #ecce6e;
+    border-radius: 5px;
+    border: 0;
+    box-shadow : 0px 1px 3px ;
+}
+.filterBtn .green {
+    background: #0e9300;
+    border-radius: 5px;
+    border: 0;
+    box-shadow : 0px 1px 3px ;
+}
+
+.removeBtn {
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+    grid-template-columns:30px;
+    gap: 5px;
+    height: 30px;
+    background-color: #8a83db;
+    border-radius: 5px;
+}
+
+.removeBtn:focus {
+    background-color: #d283db;
 }

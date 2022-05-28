@@ -1,0 +1,33 @@
+.slide {
+    display: flex;
+    position: relative;
+    padding: 5px 10px;
+    left: -249px;
+    width: 250px;
+    height: 20px;
+
+    transition: left .4s linear;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(90deg,#f7c316,#ff916c,#f882b0);
+
+
+}
+ .slide:hover {
+    left: 0px;
+}
+.triangular {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #5575ad;
+    border-bottom: 10px solid transparent;
+    margin-left: 81px;
+}
+.activeLink {
+    color: #653d2b;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
+import s from './Affairs.module.css'
 
 type AffairsPropsType = {
     deleteAffairCallback: (_id: number) => void
@@ -30,12 +31,16 @@ function Affairs({affairs, deleteAffairCallback, setFilter}: AffairsPropsType) {
 
     return (
         <div>
-            {mappedAffairs}
+            <div>
+                {mappedAffairs}
+            </div>
+            <div className={s.filterBtn}>
+                <button className={s.blue} onClick={() => setAll('all')}>All</button>
+                <button className={s.red} onClick={() => setHigh('high')}>High</button>
+                <button className={s.yellow} onClick={() => setMiddle('middle')}>Middle</button>
+                <button className={s.green} onClick={() => setLow('low')}>Low</button>
+            </div>
 
-            <button onClick={() => setAll('all')}>All</button>
-            <button onClick={() => setHigh('high')}>High</button>
-            <button onClick={() => setMiddle('middle')}>Middle</button>
-            <button onClick={() => setLow('low')}>Low</button>
         </div>
     )
 }
