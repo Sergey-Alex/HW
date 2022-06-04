@@ -1,0 +1,9 @@
+.spanKing {
+    opacity: 0;
+    inset: -1px;
+    background-color: currentColor;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+}
