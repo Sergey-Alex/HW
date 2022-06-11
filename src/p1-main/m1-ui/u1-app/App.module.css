@@ -1,6 +1,6 @@
 .App {
     background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
-    overflow: hidden;
+   overflow: auto;
     text-align: center;
     height: 100vh;
 
