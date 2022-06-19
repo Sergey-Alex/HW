@@ -12,9 +12,9 @@ export const homeWorkReducer = (state: Array<UserType>, action: ActionType):  Ar
                     let copyState = [...state]
                       copyState.sort((a,b) => {
                         if (action.payload === 'up'){
-                          return   a.age > b.age ? 1 : -1
+                          return   (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : -1
                         } else if (action.payload === 'down'){
-                            return  a.age < b.age ? 1:-1
+                            return  (a.name.toLowerCase() < b.name.toLowerCase()) ? 1:-1
                         } else {
                             return 0
                         }
