@@ -11,11 +11,6 @@
     transition: 0.2s;
     cursor: pointer;
 }
-default:hover { background: rgb(53, 167, 110); }
-default:active {
-    background: rgb(33,147,90);
-    box-shadow: 0 3px rgb(33,147,90) inset;
-}
 
 
 .delete {

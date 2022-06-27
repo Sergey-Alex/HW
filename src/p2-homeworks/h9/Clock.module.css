@@ -1,0 +1,15 @@
+.tooltip {
+    display:inline-block;
+    margin: 0 auto;
+
+}
+
+.tooltip .tooltiptext {
+    width: 30px;
+    background-color: #8a83db;
+    border-radius: 3px;
+    color: #ffffff;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
