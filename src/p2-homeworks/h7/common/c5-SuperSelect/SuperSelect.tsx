@@ -7,9 +7,6 @@ type SuperSelectPropsType = DefaultSelectPropsType & {
     onChangeOption?: (option: string) => void
 }
 
-
-
-
 const SuperSelectMemoized: React.FC<SuperSelectPropsType> = (
     {
         options,
@@ -31,7 +28,7 @@ const SuperSelectMemoized: React.FC<SuperSelectPropsType> = (
         </select>
     )
 }
-const SuperSelect =  React.memo(SuperSelectMemoized)
+const SuperSelect = React.memo(SuperSelectMemoized)
 
 
 export default SuperSelect;

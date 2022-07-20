@@ -7,8 +7,6 @@ type SuperRadioPropsType = DefaultRadioPropsType & {
     onChangeOption?: (option: string) => void
 }
 
-
-
 const SuperRadioMemoized: React.FC<SuperRadioPropsType> = (
     {
         type, name,
@@ -22,7 +20,6 @@ const SuperRadioMemoized: React.FC<SuperRadioPropsType> = (
         onChange && onChange(e)
         onChangeOption && onChangeOption(e.currentTarget.value)
     }
-    console.log(value)
     const mappedOptions: ReactNode = options ? options.map((o, i) => (
 
         <label key={name + '-' + i}>
